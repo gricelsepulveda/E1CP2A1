@@ -1,0 +1,127 @@
+h1 {
+    font-family: 'Erica One', cursive;
+    font-size: 28px;
+    color: #F4B031;
+    display: block;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+h2 {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: -20px;
+  font-family: 'Times New Roman', 'Georgia', serif;
+  font-size: 18px;
+  color: #fff;
+}
+
+header {
+  background-color: #A32238;
+  display: block;
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+figure{
+  background-color: #0089C0;
+  display: block;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  text-align: center;
+}
+
+figure img {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  position: relative;
+  margin: 15px;
+  text-align: center;
+}
+
+section.cuzco {
+  background-image: url("../img/cuzco2.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+article.texto_cuzco{
+  display: block;
+}
+
+article.texto_cuzco > h1 {
+  text-align: right;
+}
+
+.descripcion {
+  color: #fff;
+  text-align: right;
+  font-family: 'Times New Roman', 'Georgia', serif;
+  font-size: 18px;
+  color: #fff;
+}
+
+section.prices {
+  background-color: #fff;
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-top: 40px;
+}
+
+section.prices > article {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+  height: auto;
+  position: relative;
+  float: left;
+  margin-left: 80px;
+  margin-bottom: 80px;
+}
+
+h3 {
+  display: block;
+  width: 100%;
+  font-family: 'Slackey', cursive;
+  font-size: 48px;
+  color: #000000;
+  text-align: center;
+}
+
+.prices_list{
+  display: block;
+  width: 100%;
+}
+
+.prices_list li{
+  display: block;
+  width: 100%;
+  font-family: 'Slackey', cursive;
+  font-size: 36px;
+  color: #000000;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.prices_list li > img {
+  margin-right: 20px;
+  display: inline-block;
+  width: 40px;
+  height: auto;
+}
